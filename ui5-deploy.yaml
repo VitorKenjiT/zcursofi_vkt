@@ -19,7 +19,7 @@ builder:
       app:
         name: zcursovktapp1
         package: ZG_CURSO_FIORI
-        transport: S4HK902911
+        transport: S4HK903007
       exclude:
       - .*\.test.js
       - internal.md

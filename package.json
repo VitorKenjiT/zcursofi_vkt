@@ -2,7 +2,7 @@
   "name": "zcursovktapp1",
   "version": "0.0.1",
   "private": true,
-  "description": "An SAP Fiori application.",
+  "description": "Curso Fiori",
   "keywords": [
     "ui5",
     "openui5",
@@ -10,11 +10,9 @@
   ],
   "main": "webapp/index.html",
   "dependencies": {
-    "git": "^0.1.5",
-    "npm-git-install": "^0.3.0"
+   
   },
   "devDependencies": {
-    "@sap-ux/ui5-middleware-fe-mockserver": "2",
     "@sap/ux-ui5-tooling": "1",
     "@ui5/cli": "^3.0.0"
   },

@@ -2,11 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Start zcursovktapp1",
+            "name": "Start project1",
             "type": "node",
             "request": "launch",
             "runtimeExecutable": "npx",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/project1",
             "windows": {
                 "runtimeExecutable": "npx.cmd"
             },
@@ -16,7 +16,7 @@
             ],
             "args": [
                 "--open",
-                "test/flpSandbox.html#zcursovktapp1-display"
+                "test/flpSandbox.html#project1-display"
             ],
             "console": "internalConsole",
             "internalConsoleOptions": "openOnSessionStart",
@@ -24,41 +24,14 @@
             "port": 9229,
             "env": {
                 "DEBUG": "--inspect",
-                "FIORI_TOOLS_URL_PARAMS": "sap-client=900&sap-ui-xx-viewCache=false"
+                "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false"
             }
         },
         {
-            "name": "Start zcursovktapp1 Mock",
+            "name": "Start project1 Local",
             "type": "node",
             "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "npx",
-            "windows": {
-                "runtimeExecutable": "npx.cmd"
-            },
-            "runtimeArgs": [
-                "fiori",
-                "run"
-            ],
-            "args": [
-                "--config",
-                "./ui5-mock.yaml",
-                "--open",
-                "test/flpSandbox.html#zcursovktapp1-display"
-            ],
-            "console": "internalConsole",
-            "internalConsoleOptions": "openOnSessionStart",
-            "outputCapture": "std",
-            "port": 9229,
-            "env": {
-                "FIORI_TOOLS_URL_PARAMS": "sap-client=900&sap-ui-xx-viewCache=false"
-            }
-        },
-        {
-            "name": "Start zcursovktapp1 Local",
-            "type": "node",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/project1",
             "runtimeExecutable": "npx",
             "windows": {
                 "runtimeExecutable": "npx.cmd"
@@ -71,14 +44,14 @@
                 "--config",
                 "./ui5-local.yaml",
                 "--open",
-                "test/flpSandbox.html#zcursovktapp1-display"
+                "test/flpSandbox.html#project1-display"
             ],
             "console": "internalConsole",
             "internalConsoleOptions": "openOnSessionStart",
             "outputCapture": "std",
             "port": 9229,
             "env": {
-                "FIORI_TOOLS_URL_PARAMS": "sap-client=900&sap-ui-xx-viewCache=false"
+                "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false"
             }
         }
     ]
